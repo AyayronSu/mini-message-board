@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Details</title>
+</head>
+<body>
+    <h1>Message Details</h1>
+    <div class="message-card">
+        <p><strong>User:</strong> <%= message.user %></p>
+        <p><strong>Message:</strong> <%= message.text %></p>
+        <p><strong>Sent on:</strong> <%= message.added %></p>
+    </div>
+    <hr>
+    <a href="/">Back to Message Board</a>
+</body>
+</html>
